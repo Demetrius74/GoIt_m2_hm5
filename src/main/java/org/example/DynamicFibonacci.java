@@ -1,6 +1,12 @@
 package org.example;
 
-public class DynamicFibonacci extends Fibonacci{
+public class DynamicFibonacci extends Fibonacci {
+    /**
+     * Calculation of Fibonacci numbers using dynamic programming.
+     *
+     * Time complexity: O(n)
+     * Space complexity: O(n)
+     */
     public DynamicFibonacci(int n) {
         super(n);
     }

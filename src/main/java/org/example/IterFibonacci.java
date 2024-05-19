@@ -1,6 +1,12 @@
 package org.example;
 
-public class IterFibonacci extends Fibonacci{
+public class IterFibonacci extends Fibonacci {
+    /**
+    * Calculates fibonacci number using iteration
+    *
+    * Time complexity: O(n)
+    * Space complexity: O(1)
+    */
     public IterFibonacci(int n) {
         super(n);
     }
